@@ -1,0 +1,6 @@
+framework module JCPageViewController {
+  umbrella header "Pods-JCPageViewController_Example-JCPageViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}

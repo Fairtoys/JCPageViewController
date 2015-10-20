@@ -1,0 +1,6 @@
+framework module Masonry {
+  umbrella header "Pods-JCPageViewController_Tests-Masonry-umbrella.h"
+
+  export *
+  module * { export * }
+}

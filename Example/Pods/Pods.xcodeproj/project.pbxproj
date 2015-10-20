@@ -1,0 +1,1509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01CC9B5714572FB0B854AD82 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = A904A349541DFB2C236A1B67 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		041C7F10429EF2115487EE0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E79DBB81297198BE15888809 /* Foundation.framework */; };
+		07306E31A64AC4A5475A05CF /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = B029C0F2FFED5C119A4E364F /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07B63F79E377F37E252C5249 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D7B13AFA786DDBCE4F1B1959 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B66C745BB90B5A237D474C9 /* JCPageViewHController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5CD8518825DDE5022914D94 /* JCPageViewHController.m */; };
+		0CBB324B925CEFEAE9650792 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6BFCB89711063308DAA988 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		126E929B8E7163655442D5C7 /* JCPageViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 568E486AEC45C643AE12AC23 /* JCPageViewController.bundle */; };
+		1A0F6815A963E53DB55359D3 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 7678C153881B9E7CD282AE32 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CD07576A098E2118D4FD953 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D4BCCC31A0BF1613ABC55269 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22514E630170AD951340B9F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E79DBB81297198BE15888809 /* Foundation.framework */; };
+		226587BCEF8BB65E36A47DF3 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 41728C59FB1D76B849F27EB2 /* MASViewAttribute.m */; };
+		23661F760D7360F403F022B3 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D598BD8F818D1E3650E79A /* MASViewConstraint.m */; };
+		2472CC91812108E4335847BA /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 91E54BDCDDAD02E17D856CB9 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CF7DC3F908DF2D67069D18E /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B647862EB7449B298CF61C2 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FEE4CE6DC77472C00ECBCA6 /* Pods-JCPageViewController_Example-Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2240D03C6915DF31768FDF /* Pods-JCPageViewController_Example-Masonry-dummy.m */; };
+		30292C10F611C66E0B6307B0 /* JCPageViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FDFF065D9F1AE3D3688160F9 /* JCPageViewController.bundle */; };
+		305387B9101E29D64DC073CC /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = A65C6C610E8B60923E19C256 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EB6157C05403D8F70F22743 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 255C996CFAA3A67E447D974D /* ViewController+MASAdditions.m */; };
+		44DF14BE074CF0F25D6E4EE6 /* Pods-JCPageViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C91EFBD9E882077A2233C20 /* Pods-JCPageViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45A478B6BA03A53D674E24B8 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 438C4A5413042C1AA18D887A /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45B91BA7CC131892ECF77EB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E79DBB81297198BE15888809 /* Foundation.framework */; };
+		48730FECED512A324B7E24E9 /* Pods-JCPageViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E61DE77402EC295A6CC6D8E7 /* Pods-JCPageViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B7398B41571DCE7A49E5C5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E79DBB81297198BE15888809 /* Foundation.framework */; };
+		4FF2DB396874D7C2F2C2BC29 /* JCPageViewHController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5CD8518825DDE5022914D94 /* JCPageViewHController.m */; };
+		504ACECE450B5A0FCE804612 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 201B6716FCA2DFC3934934DB /* MASLayoutConstraint.m */; };
+		5094EF623428EA539FC76AF1 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA979C9A0CE797488AB4B75 /* MASConstraint.m */; };
+		516D996AC3C3B68BDC83A049 /* JCOptionTitleBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 43DC87B1AACC82DD8D54857E /* JCOptionTitleBar.m */; };
+		53733D5B5B489F564E3C7BCA /* JCPageContainerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 647CE52CDF72834D91099D1E /* JCPageContainerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A2DC9F58AA213B8DC3F7E3E /* JCOptionTitleBar.h in Headers */ = {isa = PBXBuildFile; fileRef = C579C18165B094039F31AD31 /* JCOptionTitleBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		614BEEA0D29ED9F867EEB20A /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 255C996CFAA3A67E447D974D /* ViewController+MASAdditions.m */; };
+		639A709A298D6ACD06899B86 /* Pods-JCPageViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB71592561CA1444B712667 /* Pods-JCPageViewController_Example-dummy.m */; };
+		65355B63E0B061E1139ACA40 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AB3C1D471D5EFD625866FBC /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65A0AB795E52B5B27AB07B1A /* Pods-JCPageViewController_Tests-Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC5A328630EAA4BDB18146C /* Pods-JCPageViewController_Tests-Masonry-dummy.m */; };
+		68283D0BB4D38F5B169EE5DF /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 817FBCEB033E51FA3F8A9CB0 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68D37DAD93365F9EF87B3E88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E79DBB81297198BE15888809 /* Foundation.framework */; };
+		6C0FCB963028404B0B0C43F5 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = A904A349541DFB2C236A1B67 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CB254276142ED82E27716A0 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 817FBCEB033E51FA3F8A9CB0 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DD5E1A29FFDDA86F457A1B3 /* JCPageContainerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59BF7BD3E850DFEA4D6CD404 /* JCPageContainerController.m */; };
+		6E559B71511AABEF393A4A18 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D66D6DB340D17D5C67F36A78 /* MASCompositeConstraint.m */; };
+		6EEAFB079015536F07DA6C6C /* JCOptionTitleBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 43DC87B1AACC82DD8D54857E /* JCOptionTitleBar.m */; };
+		71D81F7A98A8F1239B20E4D5 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4F52CD851D7BC5D2AB0B68 /* NSArray+MASAdditions.m */; };
+		733448CB3E34D29E245EE77B /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4F52CD851D7BC5D2AB0B68 /* NSArray+MASAdditions.m */; };
+		742860B7C361D59E13228D28 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = B029C0F2FFED5C119A4E364F /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7825A4A91DC2DB616BF251F5 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6BFCB89711063308DAA988 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		79280A9BD135EC23645941C3 /* JCPageViewHController.h in Headers */ = {isa = PBXBuildFile; fileRef = EA544E876506B2754E7013D1 /* JCPageViewHController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CEF42BBDD8EE8B5C258496F /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 2918F609DCEF3EFE2F7F0E3E /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84D467BDCE2EF5C6FF287875 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DBE2EE478D1E405A11FD0F /* View+MASAdditions.m */; };
+		8BF1684432486A5115005503 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D598BD8F818D1E3650E79A /* MASViewConstraint.m */; };
+		8DDE3C941131784676C52580 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E79DBB81297198BE15888809 /* Foundation.framework */; };
+		8DF0666ED91045B04E234DA9 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DBE2EE478D1E405A11FD0F /* View+MASAdditions.m */; };
+		8F1E8E95D279864251766489 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = A26A22C8649083EADB2BCE5E /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9454EB702188FA5426B5D454 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = BB0E1F9D0CF23AC9941AC892 /* MASConstraintMaker.m */; };
+		97D9907AD656CA3A8DBAB7B7 /* JCPageContainerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 647CE52CDF72834D91099D1E /* JCPageContainerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98EFC2AD741652F79CCAE3E4 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D4BCCC31A0BF1613ABC55269 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AEC2ECCD04CA650D91DB071 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83CB08B41D61C0753A499824 /* UIKit.framework */; };
+		9D58B90856EAF73AA2F4AB2C /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA979C9A0CE797488AB4B75 /* MASConstraint.m */; };
+		A3736B0013F8CEF0599C6348 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 83F38F188D6DD24D67997EDC /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB5D77022C58FE2F64F2BCB6 /* Pods-JCPageViewController_Tests-JCPageViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE4CAEEEE58C9150226D9F8F /* Pods-JCPageViewController_Tests-JCPageViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF5720D166F979B2416E6E40 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 929F19CFD881538827A4C21A /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B06B50E7FD5E60A955338A81 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = A65C6C610E8B60923E19C256 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B47B3B081A3DF6AE313BFF6B /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 2918F609DCEF3EFE2F7F0E3E /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7EAED3E5C84914A459F22F9 /* JCOptionTitleBar.h in Headers */ = {isa = PBXBuildFile; fileRef = C579C18165B094039F31AD31 /* JCOptionTitleBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC6F1B6D7B8D17CD3F4C25D4 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 201B6716FCA2DFC3934934DB /* MASLayoutConstraint.m */; };
+		BD18AA5209ED0D7D5D696693 /* Pods-JCPageViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C62F7E68C453DC04FD2E9A70 /* Pods-JCPageViewController_Tests-dummy.m */; };
+		C1BB41FBACB399930E6FE007 /* Pods-JCPageViewController_Example-JCPageViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8656A5B1AF63F4485A5810E0 /* Pods-JCPageViewController_Example-JCPageViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5AAE8D393509DE865DA1089 /* JCPageViewHController.h in Headers */ = {isa = PBXBuildFile; fileRef = EA544E876506B2754E7013D1 /* JCPageViewHController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C867AEF1C3C918EB505D24A9 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AB3C1D471D5EFD625866FBC /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9BB8DB6BE4E94C8588D815B /* Pods-JCPageViewController_Tests-JCPageViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E84AB631B1B6003FB4331B /* Pods-JCPageViewController_Tests-JCPageViewController-dummy.m */; };
+		CD3E6F8120D2C062623D523B /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 83F38F188D6DD24D67997EDC /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEE51DAADE4CABCD5E4FAD96 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = BB0E1F9D0CF23AC9941AC892 /* MASConstraintMaker.m */; };
+		D21F5232D1ED15A3112C2B36 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 929F19CFD881538827A4C21A /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8FA927FFD32ADF070C135BE /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 438C4A5413042C1AA18D887A /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0780DD5044D4D50590F43DB /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B647862EB7449B298CF61C2 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1A74555086AE689E9905520 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83CB08B41D61C0753A499824 /* UIKit.framework */; };
+		E42067DCDDF6D0FFC8D1B485 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = A26A22C8649083EADB2BCE5E /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4C76B4998C962CCEEA13DB0 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D66D6DB340D17D5C67F36A78 /* MASCompositeConstraint.m */; };
+		E6A349389B12DB861EBFCFC8 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 41728C59FB1D76B849F27EB2 /* MASViewAttribute.m */; };
+		EDDEC22C4B17FB44DF1CBE92 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 7678C153881B9E7CD282AE32 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE4D692AB9DD36AD50BACC95 /* Pods-JCPageViewController_Tests-Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AFA9296993BFE225C0E230D7 /* Pods-JCPageViewController_Tests-Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F34A8CBE19505E9A79C7BE04 /* Pods-JCPageViewController_Example-Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BFEAD9CA2B538B1E8A0FD14 /* Pods-JCPageViewController_Example-Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4E618197D8D63AE24CC4D1A /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D7B13AFA786DDBCE4F1B1959 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F55714F15E2E35010D430B01 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 91E54BDCDDAD02E17D856CB9 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6CFDECD3322E923AAF8BE4F /* JCPageContainerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59BF7BD3E850DFEA4D6CD404 /* JCPageContainerController.m */; };
+		FA7302B34E8A190CB41C6F5C /* Pods-JCPageViewController_Example-JCPageViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF7C354CF84F106004F294E7 /* Pods-JCPageViewController_Example-JCPageViewController-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24524A92AD6CD6C32165A942 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80886042705FEB6A94957CBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAD8AFF97F3573AC12CB5ADE;
+			remoteInfo = "Pods-JCPageViewController_Tests-JCPageViewController";
+		};
+		3B05E85636EEEF0C49A05C39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80886042705FEB6A94957CBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4BA1A1FFB8445D8FF6E7D46;
+			remoteInfo = "Pods-JCPageViewController_Example-JCPageViewController";
+		};
+		4C453DA3DB8F963F4770D8FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80886042705FEB6A94957CBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CCB41EC50FEFF04A675BFD6;
+			remoteInfo = "Pods-JCPageViewController_Example-Masonry";
+		};
+		5B71392D5DB0D5FCA52C460D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80886042705FEB6A94957CBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61193F1644CD7299F272756A;
+			remoteInfo = "Pods-JCPageViewController_Tests-JCPageViewController-JCPageViewController";
+		};
+		73367135C337FC22CDB0F79B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80886042705FEB6A94957CBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C06DE965ACEEF271E93209CD;
+			remoteInfo = "Pods-JCPageViewController_Tests-Masonry";
+		};
+		E983F8D5B799077EA12D29CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80886042705FEB6A94957CBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 517E5925166E1EABF635E0C4;
+			remoteInfo = "Pods-JCPageViewController_Example-JCPageViewController-JCPageViewController";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A5EF7FE9FAAD6E3CC1863DE /* Pods-JCPageViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JCPageViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0EC5A328630EAA4BDB18146C /* Pods-JCPageViewController_Tests-Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-JCPageViewController_Tests-Masonry-dummy.m"; path = "../Pods-JCPageViewController_Tests-Masonry/Pods-JCPageViewController_Tests-Masonry-dummy.m"; sourceTree = "<group>"; };
+		13E45C1CD9B0AF043947B1FD /* Pods-JCPageViewController_Example-Masonry-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCPageViewController_Example-Masonry-Private.xcconfig"; sourceTree = "<group>"; };
+		1542B12BDE3166C3A30A0DE2 /* Pods-JCPageViewController_Tests-Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-JCPageViewController_Tests-Masonry.modulemap"; path = "../Pods-JCPageViewController_Tests-Masonry/Pods-JCPageViewController_Tests-Masonry.modulemap"; sourceTree = "<group>"; };
+		16F05EFC9BC6F2DBBD8B3AE2 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F7912A61D72AE114BA6EBB /* Pods-JCPageViewController_Tests-Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-JCPageViewController_Tests-Masonry-prefix.pch"; path = "../Pods-JCPageViewController_Tests-Masonry/Pods-JCPageViewController_Tests-Masonry-prefix.pch"; sourceTree = "<group>"; };
+		19F6D7140A0D7C7FBE1E6302 /* Pods-JCPageViewController_Example-Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JCPageViewController_Example-Masonry.modulemap"; sourceTree = "<group>"; };
+		201B6716FCA2DFC3934934DB /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		22735B4A6F0E42A585CF10F4 /* Pods-JCPageViewController_Example-JCPageViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCPageViewController_Example-JCPageViewController.xcconfig"; sourceTree = "<group>"; };
+		255C996CFAA3A67E447D974D /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		25D598BD8F818D1E3650E79A /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		2918F609DCEF3EFE2F7F0E3E /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		2AB3C1D471D5EFD625866FBC /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		2D0358BE6D6526E6F2709042 /* Pods-JCPageViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCPageViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		303E5DF9C8C633679A3E1238 /* JCPageViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JCPageViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35C73D5D0D1B14EB88F7406D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3643198E87140D6F88375950 /* Pods-JCPageViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCPageViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		388ACCD896A757CDBE3A7425 /* Pods-JCPageViewController_Tests-JCPageViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-JCPageViewController_Tests-JCPageViewController-prefix.pch"; path = "../Pods-JCPageViewController_Tests-JCPageViewController/Pods-JCPageViewController_Tests-JCPageViewController-prefix.pch"; sourceTree = "<group>"; };
+		3AA700B74F162BE5DB1B04E9 /* Pods-JCPageViewController_Example-JCPageViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JCPageViewController_Example-JCPageViewController.modulemap"; sourceTree = "<group>"; };
+		3C91EFBD9E882077A2233C20 /* Pods-JCPageViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JCPageViewController_Example-umbrella.h"; sourceTree = "<group>"; };
+		3CA979C9A0CE797488AB4B75 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		3F6BFCB89711063308DAA988 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		40F2610BDF5A59794D180D10 /* Pods-JCPageViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JCPageViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		41728C59FB1D76B849F27EB2 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		438C4A5413042C1AA18D887A /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		43DC87B1AACC82DD8D54857E /* JCOptionTitleBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JCOptionTitleBar.m; sourceTree = "<group>"; };
+		4460E32A667A9D53839680DD /* Pods_JCPageViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JCPageViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F0817470565C8FD794F9A4A /* Pods-JCPageViewController_Tests-Masonry-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JCPageViewController_Tests-Masonry-Private.xcconfig"; path = "../Pods-JCPageViewController_Tests-Masonry/Pods-JCPageViewController_Tests-Masonry-Private.xcconfig"; sourceTree = "<group>"; };
+		52DBE2EE478D1E405A11FD0F /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		568E486AEC45C643AE12AC23 /* JCPageViewController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JCPageViewController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		59BF7BD3E850DFEA4D6CD404 /* JCPageContainerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JCPageContainerController.m; sourceTree = "<group>"; };
+		5B647862EB7449B298CF61C2 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		5C6EAE67385544A05B374DEE /* Pods-JCPageViewController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JCPageViewController_Tests-resources.sh"; sourceTree = "<group>"; };
+		647CE52CDF72834D91099D1E /* JCPageContainerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JCPageContainerController.h; sourceTree = "<group>"; };
+		648BFDEA3EEE9D8EB51D52A2 /* Pods-JCPageViewController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JCPageViewController_Example-resources.sh"; sourceTree = "<group>"; };
+		6A70A880D060B74E40477FB1 /* Pods-JCPageViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JCPageViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6C2240D03C6915DF31768FDF /* Pods-JCPageViewController_Example-Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JCPageViewController_Example-Masonry-dummy.m"; sourceTree = "<group>"; };
+		6F54AA19E5C0820DCFEB4359 /* Pods-JCPageViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JCPageViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6F6BC0731A93D6479066E09A /* Pods-JCPageViewController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JCPageViewController_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		7506C6853A67A3764AB7FE27 /* Pods-JCPageViewController_Tests-JCPageViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-JCPageViewController_Tests-JCPageViewController.modulemap"; path = "../Pods-JCPageViewController_Tests-JCPageViewController/Pods-JCPageViewController_Tests-JCPageViewController.modulemap"; sourceTree = "<group>"; };
+		755F03BC2CA2ECC72B8051A1 /* Pods-JCPageViewController_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JCPageViewController_Tests-environment.h"; sourceTree = "<group>"; };
+		76018E948BC56B1BD886E2E3 /* Pods-JCPageViewController_Example-JCPageViewController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCPageViewController_Example-JCPageViewController-Private.xcconfig"; sourceTree = "<group>"; };
+		7678C153881B9E7CD282AE32 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		7921869ED5E78DF38DA224E8 /* Pods-JCPageViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JCPageViewController_Tests.modulemap"; sourceTree = "<group>"; };
+		7BFEAD9CA2B538B1E8A0FD14 /* Pods-JCPageViewController_Example-Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JCPageViewController_Example-Masonry-umbrella.h"; sourceTree = "<group>"; };
+		7F4F52CD851D7BC5D2AB0B68 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		817FBCEB033E51FA3F8A9CB0 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		83CB08B41D61C0753A499824 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		83F38F188D6DD24D67997EDC /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		8656A5B1AF63F4485A5810E0 /* Pods-JCPageViewController_Example-JCPageViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JCPageViewController_Example-JCPageViewController-umbrella.h"; sourceTree = "<group>"; };
+		8DCD48C970FCE4545806E5AC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-JCPageViewController_Tests-Masonry/Info.plist"; sourceTree = "<group>"; };
+		91E54BDCDDAD02E17D856CB9 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		929F19CFD881538827A4C21A /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		94AB063B521988F9DB9627CE /* Pods-JCPageViewController_Tests-Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JCPageViewController_Tests-Masonry.xcconfig"; path = "../Pods-JCPageViewController_Tests-Masonry/Pods-JCPageViewController_Tests-Masonry.xcconfig"; sourceTree = "<group>"; };
+		94C872683A82C0DF98F097ED /* Pods-JCPageViewController_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JCPageViewController_Example-environment.h"; sourceTree = "<group>"; };
+		9725FE87558F495D948ECEBB /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A26A22C8649083EADB2BCE5E /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		A3EBE962D651BB66575C64E1 /* Pods-JCPageViewController_Example-Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JCPageViewController_Example-Masonry-prefix.pch"; sourceTree = "<group>"; };
+		A5CD8518825DDE5022914D94 /* JCPageViewHController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JCPageViewHController.m; sourceTree = "<group>"; };
+		A61720FDA39EF970A8831286 /* JCPageViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JCPageViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A65C6C610E8B60923E19C256 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		A7B4EB71748625515B703947 /* Pods-JCPageViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCPageViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A904A349541DFB2C236A1B67 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		A9C29094C396633998351B73 /* Pods-JCPageViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCPageViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		AB2CA889E52E4F9B68ABDFF0 /* Pods-JCPageViewController_Example-JCPageViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JCPageViewController_Example-JCPageViewController-prefix.pch"; sourceTree = "<group>"; };
+		AFA9296993BFE225C0E230D7 /* Pods-JCPageViewController_Tests-Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-JCPageViewController_Tests-Masonry-umbrella.h"; path = "../Pods-JCPageViewController_Tests-Masonry/Pods-JCPageViewController_Tests-Masonry-umbrella.h"; sourceTree = "<group>"; };
+		B029C0F2FFED5C119A4E364F /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		B233065DD338A862BB8D0432 /* Pods-JCPageViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JCPageViewController_Example.modulemap"; sourceTree = "<group>"; };
+		BB0E1F9D0CF23AC9941AC892 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		BB65365E9E55F5CE1A7D9088 /* Pods-JCPageViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JCPageViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BE4CAEEEE58C9150226D9F8F /* Pods-JCPageViewController_Tests-JCPageViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-JCPageViewController_Tests-JCPageViewController-umbrella.h"; path = "../Pods-JCPageViewController_Tests-JCPageViewController/Pods-JCPageViewController_Tests-JCPageViewController-umbrella.h"; sourceTree = "<group>"; };
+		C16C9EE538CA04E8A46A6495 /* Pods-JCPageViewController_Tests-JCPageViewController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JCPageViewController_Tests-JCPageViewController-Private.xcconfig"; path = "../Pods-JCPageViewController_Tests-JCPageViewController/Pods-JCPageViewController_Tests-JCPageViewController-Private.xcconfig"; sourceTree = "<group>"; };
+		C579C18165B094039F31AD31 /* JCOptionTitleBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JCOptionTitleBar.h; sourceTree = "<group>"; };
+		C62F7E68C453DC04FD2E9A70 /* Pods-JCPageViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JCPageViewController_Tests-dummy.m"; sourceTree = "<group>"; };
+		C869AA04315AE248F6BF5986 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB61C44EBF476EA2C26AB778 /* Pods_JCPageViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JCPageViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF343D74AA40AE5371664523 /* Pods-JCPageViewController_Example-Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCPageViewController_Example-Masonry.xcconfig"; sourceTree = "<group>"; };
+		CF78D42263E2E74D85021AE1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFE1D480E9B2B7A287149CD4 /* Pods-JCPageViewController_Tests-JCPageViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JCPageViewController_Tests-JCPageViewController.xcconfig"; path = "../Pods-JCPageViewController_Tests-JCPageViewController/Pods-JCPageViewController_Tests-JCPageViewController.xcconfig"; sourceTree = "<group>"; };
+		D4BCCC31A0BF1613ABC55269 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		D5DC459F21F7D760D7F3739F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D66D6DB340D17D5C67F36A78 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		D7B13AFA786DDBCE4F1B1959 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		E61DE77402EC295A6CC6D8E7 /* Pods-JCPageViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JCPageViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E79DBB81297198BE15888809 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EA544E876506B2754E7013D1 /* JCPageViewHController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JCPageViewHController.h; sourceTree = "<group>"; };
+		EC1C95555816E0F4C1D72032 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7C354CF84F106004F294E7 /* Pods-JCPageViewController_Example-JCPageViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JCPageViewController_Example-JCPageViewController-dummy.m"; sourceTree = "<group>"; };
+		F7E84AB631B1B6003FB4331B /* Pods-JCPageViewController_Tests-JCPageViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-JCPageViewController_Tests-JCPageViewController-dummy.m"; path = "../Pods-JCPageViewController_Tests-JCPageViewController/Pods-JCPageViewController_Tests-JCPageViewController-dummy.m"; sourceTree = "<group>"; };
+		FDB71592561CA1444B712667 /* Pods-JCPageViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JCPageViewController_Example-dummy.m"; sourceTree = "<group>"; };
+		FDFF065D9F1AE3D3688160F9 /* JCPageViewController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JCPageViewController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF83A2E285DEA1E6B1212A5A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-JCPageViewController_Tests-JCPageViewController/Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14D19261D82E7BF6B6B009F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45B91BA7CC131892ECF77EB8 /* Foundation.framework in Frameworks */,
+				E1A74555086AE689E9905520 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6307D11F03AFFB5AC4A9F594 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B7398B41571DCE7A49E5C5D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A447136ABF328AA28D670AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7780ABD77BB1BC85166EDBA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041C7F10429EF2115487EE0E /* Foundation.framework in Frameworks */,
+				9AEC2ECCD04CA650D91DB071 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D665BDDAEA048B21B340A24E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22514E630170AD951340B9F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB5334F5AA0434ABAE50CD54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DDE3C941131784676C52580 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6AF62312D78F5E6DEAC4DA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD128011D10F666BAC31A5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68D37DAD93365F9EF87B3E88 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00F6B604DA7DAB7AA618BE48 /* JCPageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				10ABB3740B1A18F8DEAB681D /* Pod */,
+				3FADD21AA87D39EA3A300019 /* Support Files */,
+			);
+			name = JCPageViewController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		0C650058C21F40A783D9CEE4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				607AD08D60D22FEB49660107 /* Pods-JCPageViewController_Example */,
+				BEE57610DD46897E269FD908 /* Pods-JCPageViewController_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		10ABB3740B1A18F8DEAB681D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8B453F81D63E3F3CD1FB3208 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		2F860787B54E1F491C4C339C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C579C18165B094039F31AD31 /* JCOptionTitleBar.h */,
+				43DC87B1AACC82DD8D54857E /* JCOptionTitleBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		31BABF457020A8FD6D38A96D /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				83F38F188D6DD24D67997EDC /* MASCompositeConstraint.h */,
+				D66D6DB340D17D5C67F36A78 /* MASCompositeConstraint.m */,
+				B029C0F2FFED5C119A4E364F /* MASConstraint.h */,
+				3CA979C9A0CE797488AB4B75 /* MASConstraint.m */,
+				2AB3C1D471D5EFD625866FBC /* MASConstraint+Private.h */,
+				A26A22C8649083EADB2BCE5E /* MASConstraintMaker.h */,
+				BB0E1F9D0CF23AC9941AC892 /* MASConstraintMaker.m */,
+				438C4A5413042C1AA18D887A /* MASLayoutConstraint.h */,
+				201B6716FCA2DFC3934934DB /* MASLayoutConstraint.m */,
+				A904A349541DFB2C236A1B67 /* MASUtilities.h */,
+				7678C153881B9E7CD282AE32 /* MASViewAttribute.h */,
+				41728C59FB1D76B849F27EB2 /* MASViewAttribute.m */,
+				2918F609DCEF3EFE2F7F0E3E /* MASViewConstraint.h */,
+				25D598BD8F818D1E3650E79A /* MASViewConstraint.m */,
+				5B647862EB7449B298CF61C2 /* Masonry.h */,
+				D4BCCC31A0BF1613ABC55269 /* NSArray+MASAdditions.h */,
+				7F4F52CD851D7BC5D2AB0B68 /* NSArray+MASAdditions.m */,
+				929F19CFD881538827A4C21A /* NSArray+MASShorthandAdditions.h */,
+				817FBCEB033E51FA3F8A9CB0 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				3F6BFCB89711063308DAA988 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				D7B13AFA786DDBCE4F1B1959 /* View+MASAdditions.h */,
+				52DBE2EE478D1E405A11FD0F /* View+MASAdditions.m */,
+				A65C6C610E8B60923E19C256 /* View+MASShorthandAdditions.h */,
+				91E54BDCDDAD02E17D856CB9 /* ViewController+MASAdditions.h */,
+				255C996CFAA3A67E447D974D /* ViewController+MASAdditions.m */,
+				FE2E815B624EC6F2C3BEE578 /* Support Files */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		3733AA23E7525D1D6EF39230 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3B939E27731C62AFAE2D219 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3FADD21AA87D39EA3A300019 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				35C73D5D0D1B14EB88F7406D /* Info.plist */,
+				FF83A2E285DEA1E6B1212A5A /* Info.plist */,
+				3AA700B74F162BE5DB1B04E9 /* Pods-JCPageViewController_Example-JCPageViewController.modulemap */,
+				22735B4A6F0E42A585CF10F4 /* Pods-JCPageViewController_Example-JCPageViewController.xcconfig */,
+				76018E948BC56B1BD886E2E3 /* Pods-JCPageViewController_Example-JCPageViewController-Private.xcconfig */,
+				EF7C354CF84F106004F294E7 /* Pods-JCPageViewController_Example-JCPageViewController-dummy.m */,
+				AB2CA889E52E4F9B68ABDFF0 /* Pods-JCPageViewController_Example-JCPageViewController-prefix.pch */,
+				8656A5B1AF63F4485A5810E0 /* Pods-JCPageViewController_Example-JCPageViewController-umbrella.h */,
+				7506C6853A67A3764AB7FE27 /* Pods-JCPageViewController_Tests-JCPageViewController.modulemap */,
+				CFE1D480E9B2B7A287149CD4 /* Pods-JCPageViewController_Tests-JCPageViewController.xcconfig */,
+				C16C9EE538CA04E8A46A6495 /* Pods-JCPageViewController_Tests-JCPageViewController-Private.xcconfig */,
+				F7E84AB631B1B6003FB4331B /* Pods-JCPageViewController_Tests-JCPageViewController-dummy.m */,
+				388ACCD896A757CDBE3A7425 /* Pods-JCPageViewController_Tests-JCPageViewController-prefix.pch */,
+				BE4CAEEEE58C9150226D9F8F /* Pods-JCPageViewController_Tests-JCPageViewController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-JCPageViewController_Example-JCPageViewController";
+			sourceTree = "<group>";
+		};
+		607AD08D60D22FEB49660107 /* Pods-JCPageViewController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C869AA04315AE248F6BF5986 /* Info.plist */,
+				B233065DD338A862BB8D0432 /* Pods-JCPageViewController_Example.modulemap */,
+				6F54AA19E5C0820DCFEB4359 /* Pods-JCPageViewController_Example-acknowledgements.markdown */,
+				40F2610BDF5A59794D180D10 /* Pods-JCPageViewController_Example-acknowledgements.plist */,
+				FDB71592561CA1444B712667 /* Pods-JCPageViewController_Example-dummy.m */,
+				94C872683A82C0DF98F097ED /* Pods-JCPageViewController_Example-environment.h */,
+				6A70A880D060B74E40477FB1 /* Pods-JCPageViewController_Example-frameworks.sh */,
+				648BFDEA3EEE9D8EB51D52A2 /* Pods-JCPageViewController_Example-resources.sh */,
+				3C91EFBD9E882077A2233C20 /* Pods-JCPageViewController_Example-umbrella.h */,
+				2D0358BE6D6526E6F2709042 /* Pods-JCPageViewController_Example.debug.xcconfig */,
+				A7B4EB71748625515B703947 /* Pods-JCPageViewController_Example.release.xcconfig */,
+			);
+			name = "Pods-JCPageViewController_Example";
+			path = "Target Support Files/Pods-JCPageViewController_Example";
+			sourceTree = "<group>";
+		};
+		8B453F81D63E3F3CD1FB3208 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F53D91B80DE3ACE97EC5C154 /* Controller */,
+				2F860787B54E1F491C4C339C /* View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		972DF1D97A515BB33C932205 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				31BABF457020A8FD6D38A96D /* Masonry */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9D40EC524DE7C9BDB084922E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				568E486AEC45C643AE12AC23 /* JCPageViewController.bundle */,
+				FDFF065D9F1AE3D3688160F9 /* JCPageViewController.bundle */,
+				303E5DF9C8C633679A3E1238 /* JCPageViewController.framework */,
+				A61720FDA39EF970A8831286 /* JCPageViewController.framework */,
+				EC1C95555816E0F4C1D72032 /* Masonry.framework */,
+				16F05EFC9BC6F2DBBD8B3AE2 /* Masonry.framework */,
+				4460E32A667A9D53839680DD /* Pods_JCPageViewController_Example.framework */,
+				CB61C44EBF476EA2C26AB778 /* Pods_JCPageViewController_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3B939E27731C62AFAE2D219 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E79DBB81297198BE15888809 /* Foundation.framework */,
+				83CB08B41D61C0753A499824 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		BEE57610DD46897E269FD908 /* Pods-JCPageViewController_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CF78D42263E2E74D85021AE1 /* Info.plist */,
+				7921869ED5E78DF38DA224E8 /* Pods-JCPageViewController_Tests.modulemap */,
+				0A5EF7FE9FAAD6E3CC1863DE /* Pods-JCPageViewController_Tests-acknowledgements.markdown */,
+				BB65365E9E55F5CE1A7D9088 /* Pods-JCPageViewController_Tests-acknowledgements.plist */,
+				C62F7E68C453DC04FD2E9A70 /* Pods-JCPageViewController_Tests-dummy.m */,
+				755F03BC2CA2ECC72B8051A1 /* Pods-JCPageViewController_Tests-environment.h */,
+				6F6BC0731A93D6479066E09A /* Pods-JCPageViewController_Tests-frameworks.sh */,
+				5C6EAE67385544A05B374DEE /* Pods-JCPageViewController_Tests-resources.sh */,
+				E61DE77402EC295A6CC6D8E7 /* Pods-JCPageViewController_Tests-umbrella.h */,
+				3643198E87140D6F88375950 /* Pods-JCPageViewController_Tests.debug.xcconfig */,
+				A9C29094C396633998351B73 /* Pods-JCPageViewController_Tests.release.xcconfig */,
+			);
+			name = "Pods-JCPageViewController_Tests";
+			path = "Target Support Files/Pods-JCPageViewController_Tests";
+			sourceTree = "<group>";
+		};
+		CC5557E9CB1B7E32720795A3 = {
+			isa = PBXGroup;
+			children = (
+				9725FE87558F495D948ECEBB /* Podfile */,
+				F2F6852A910E8A9AFB6F1728 /* Development Pods */,
+				3733AA23E7525D1D6EF39230 /* Frameworks */,
+				972DF1D97A515BB33C932205 /* Pods */,
+				9D40EC524DE7C9BDB084922E /* Products */,
+				0C650058C21F40A783D9CEE4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		F2F6852A910E8A9AFB6F1728 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				00F6B604DA7DAB7AA618BE48 /* JCPageViewController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F53D91B80DE3ACE97EC5C154 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				647CE52CDF72834D91099D1E /* JCPageContainerController.h */,
+				59BF7BD3E850DFEA4D6CD404 /* JCPageContainerController.m */,
+				EA544E876506B2754E7013D1 /* JCPageViewHController.h */,
+				A5CD8518825DDE5022914D94 /* JCPageViewHController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FE2E815B624EC6F2C3BEE578 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5DC459F21F7D760D7F3739F /* Info.plist */,
+				8DCD48C970FCE4545806E5AC /* Info.plist */,
+				19F6D7140A0D7C7FBE1E6302 /* Pods-JCPageViewController_Example-Masonry.modulemap */,
+				CF343D74AA40AE5371664523 /* Pods-JCPageViewController_Example-Masonry.xcconfig */,
+				13E45C1CD9B0AF043947B1FD /* Pods-JCPageViewController_Example-Masonry-Private.xcconfig */,
+				6C2240D03C6915DF31768FDF /* Pods-JCPageViewController_Example-Masonry-dummy.m */,
+				A3EBE962D651BB66575C64E1 /* Pods-JCPageViewController_Example-Masonry-prefix.pch */,
+				7BFEAD9CA2B538B1E8A0FD14 /* Pods-JCPageViewController_Example-Masonry-umbrella.h */,
+				1542B12BDE3166C3A30A0DE2 /* Pods-JCPageViewController_Tests-Masonry.modulemap */,
+				94AB063B521988F9DB9627CE /* Pods-JCPageViewController_Tests-Masonry.xcconfig */,
+				4F0817470565C8FD794F9A4A /* Pods-JCPageViewController_Tests-Masonry-Private.xcconfig */,
+				0EC5A328630EAA4BDB18146C /* Pods-JCPageViewController_Tests-Masonry-dummy.m */,
+				18F7912A61D72AE114BA6EBB /* Pods-JCPageViewController_Tests-Masonry-prefix.pch */,
+				AFA9296993BFE225C0E230D7 /* Pods-JCPageViewController_Tests-Masonry-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-JCPageViewController_Example-Masonry";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0E6B2CA61979A23DC4A8DD33 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7EAED3E5C84914A459F22F9 /* JCOptionTitleBar.h in Headers */,
+				53733D5B5B489F564E3C7BCA /* JCPageContainerController.h in Headers */,
+				79280A9BD135EC23645941C3 /* JCPageViewHController.h in Headers */,
+				C1BB41FBACB399930E6FE007 /* Pods-JCPageViewController_Example-JCPageViewController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B80407BB7368B16561B0CBC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A2DC9F58AA213B8DC3F7E3E /* JCOptionTitleBar.h in Headers */,
+				97D9907AD656CA3A8DBAB7B7 /* JCPageContainerController.h in Headers */,
+				C5AAE8D393509DE865DA1089 /* JCPageViewHController.h in Headers */,
+				AB5D77022C58FE2F64F2BCB6 /* Pods-JCPageViewController_Tests-JCPageViewController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E4668383D95C406CC5D7978 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44DF14BE074CF0F25D6E4EE6 /* Pods-JCPageViewController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B936C2FC12478DF57E05B32D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3E6F8120D2C062623D523B /* MASCompositeConstraint.h in Headers */,
+				65355B63E0B061E1139ACA40 /* MASConstraint+Private.h in Headers */,
+				07306E31A64AC4A5475A05CF /* MASConstraint.h in Headers */,
+				E42067DCDDF6D0FFC8D1B485 /* MASConstraintMaker.h in Headers */,
+				45A478B6BA03A53D674E24B8 /* MASLayoutConstraint.h in Headers */,
+				01CC9B5714572FB0B854AD82 /* MASUtilities.h in Headers */,
+				1A0F6815A963E53DB55359D3 /* MASViewAttribute.h in Headers */,
+				B47B3B081A3DF6AE313BFF6B /* MASViewConstraint.h in Headers */,
+				2CF7DC3F908DF2D67069D18E /* Masonry.h in Headers */,
+				98EFC2AD741652F79CCAE3E4 /* NSArray+MASAdditions.h in Headers */,
+				AF5720D166F979B2416E6E40 /* NSArray+MASShorthandAdditions.h in Headers */,
+				6CB254276142ED82E27716A0 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				F34A8CBE19505E9A79C7BE04 /* Pods-JCPageViewController_Example-Masonry-umbrella.h in Headers */,
+				F4E618197D8D63AE24CC4D1A /* View+MASAdditions.h in Headers */,
+				305387B9101E29D64DC073CC /* View+MASShorthandAdditions.h in Headers */,
+				F55714F15E2E35010D430B01 /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF56CC68BE926F44019F902 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48730FECED512A324B7E24E9 /* Pods-JCPageViewController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF61B85AD2856E3C3AB20003 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3736B0013F8CEF0599C6348 /* MASCompositeConstraint.h in Headers */,
+				C867AEF1C3C918EB505D24A9 /* MASConstraint+Private.h in Headers */,
+				742860B7C361D59E13228D28 /* MASConstraint.h in Headers */,
+				8F1E8E95D279864251766489 /* MASConstraintMaker.h in Headers */,
+				D8FA927FFD32ADF070C135BE /* MASLayoutConstraint.h in Headers */,
+				6C0FCB963028404B0B0C43F5 /* MASUtilities.h in Headers */,
+				EDDEC22C4B17FB44DF1CBE92 /* MASViewAttribute.h in Headers */,
+				7CEF42BBDD8EE8B5C258496F /* MASViewConstraint.h in Headers */,
+				E0780DD5044D4D50590F43DB /* Masonry.h in Headers */,
+				1CD07576A098E2118D4FD953 /* NSArray+MASAdditions.h in Headers */,
+				D21F5232D1ED15A3112C2B36 /* NSArray+MASShorthandAdditions.h in Headers */,
+				68283D0BB4D38F5B169EE5DF /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				EE4D692AB9DD36AD50BACC95 /* Pods-JCPageViewController_Tests-Masonry-umbrella.h in Headers */,
+				07B63F79E377F37E252C5249 /* View+MASAdditions.h in Headers */,
+				B06B50E7FD5E60A955338A81 /* View+MASShorthandAdditions.h in Headers */,
+				2472CC91812108E4335847BA /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		04CE7EA7B5100985C32C930B /* Pods-JCPageViewController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E1DFC4348F418ED7FD4224E /* Build configuration list for PBXNativeTarget "Pods-JCPageViewController_Tests" */;
+			buildPhases = (
+				C188474B867E0B65FD5CEB02 /* Sources */,
+				D665BDDAEA048B21B340A24E /* Frameworks */,
+				CDF56CC68BE926F44019F902 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C733B196D47384E0B896095C /* PBXTargetDependency */,
+				31CF6FC57EDE787369765FAA /* PBXTargetDependency */,
+			);
+			name = "Pods-JCPageViewController_Tests";
+			productName = "Pods-JCPageViewController_Tests";
+			productReference = CB61C44EBF476EA2C26AB778 /* Pods_JCPageViewController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0CCB41EC50FEFF04A675BFD6 /* Pods-JCPageViewController_Example-Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D0034576B45233D9BE50BD7 /* Build configuration list for PBXNativeTarget "Pods-JCPageViewController_Example-Masonry" */;
+			buildPhases = (
+				255990C2E1A665091DEB2BF6 /* Sources */,
+				7780ABD77BB1BC85166EDBA9 /* Frameworks */,
+				B936C2FC12478DF57E05B32D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-JCPageViewController_Example-Masonry";
+			productName = "Pods-JCPageViewController_Example-Masonry";
+			productReference = 16F05EFC9BC6F2DBBD8B3AE2 /* Masonry.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		517E5925166E1EABF635E0C4 /* Pods-JCPageViewController_Example-JCPageViewController-JCPageViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02B05565E51E6E30652C54A2 /* Build configuration list for PBXNativeTarget "Pods-JCPageViewController_Example-JCPageViewController-JCPageViewController" */;
+			buildPhases = (
+				67C3F42DC4B99FD6C3003139 /* Sources */,
+				6A447136ABF328AA28D670AC /* Frameworks */,
+				13474E1BF0C5AB0B982A5427 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-JCPageViewController_Example-JCPageViewController-JCPageViewController";
+			productName = "Pods-JCPageViewController_Example-JCPageViewController-JCPageViewController";
+			productReference = FDFF065D9F1AE3D3688160F9 /* JCPageViewController.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		61193F1644CD7299F272756A /* Pods-JCPageViewController_Tests-JCPageViewController-JCPageViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AED490BD150AB1A140B382DF /* Build configuration list for PBXNativeTarget "Pods-JCPageViewController_Tests-JCPageViewController-JCPageViewController" */;
+			buildPhases = (
+				AB81DB0D8BFE488321D968B6 /* Sources */,
+				F6AF62312D78F5E6DEAC4DA8 /* Frameworks */,
+				5A379BF5B7366EF2885EF290 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-JCPageViewController_Tests-JCPageViewController-JCPageViewController";
+			productName = "Pods-JCPageViewController_Tests-JCPageViewController-JCPageViewController";
+			productReference = 568E486AEC45C643AE12AC23 /* JCPageViewController.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		768D79261F448E4308122217 /* Pods-JCPageViewController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10CC5340FDDF42AA31DC6012 /* Build configuration list for PBXNativeTarget "Pods-JCPageViewController_Example" */;
+			buildPhases = (
+				0628038D14B99C343CA07260 /* Sources */,
+				6307D11F03AFFB5AC4A9F594 /* Frameworks */,
+				8E4668383D95C406CC5D7978 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				868A481AFEC7D5975A752D62 /* PBXTargetDependency */,
+				D6FA271DBB58136A2AF993D8 /* PBXTargetDependency */,
+			);
+			name = "Pods-JCPageViewController_Example";
+			productName = "Pods-JCPageViewController_Example";
+			productReference = 4460E32A667A9D53839680DD /* Pods_JCPageViewController_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C06DE965ACEEF271E93209CD /* Pods-JCPageViewController_Tests-Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FAF691802B368BC13A9249F /* Build configuration list for PBXNativeTarget "Pods-JCPageViewController_Tests-Masonry" */;
+			buildPhases = (
+				8F63613F22FB25A786330394 /* Sources */,
+				14D19261D82E7BF6B6B009F3 /* Frameworks */,
+				FF61B85AD2856E3C3AB20003 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-JCPageViewController_Tests-Masonry";
+			productName = "Pods-JCPageViewController_Tests-Masonry";
+			productReference = EC1C95555816E0F4C1D72032 /* Masonry.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E4BA1A1FFB8445D8FF6E7D46 /* Pods-JCPageViewController_Example-JCPageViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01F417BCEA63BF6E9BB817ED /* Build configuration list for PBXNativeTarget "Pods-JCPageViewController_Example-JCPageViewController" */;
+			buildPhases = (
+				7299513EB743A28732C8F625 /* Sources */,
+				FAD128011D10F666BAC31A5E /* Frameworks */,
+				A2548990A098C07057321421 /* Resources */,
+				0E6B2CA61979A23DC4A8DD33 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71552C2742A36E8175F2F6B7 /* PBXTargetDependency */,
+			);
+			name = "Pods-JCPageViewController_Example-JCPageViewController";
+			productName = "Pods-JCPageViewController_Example-JCPageViewController";
+			productReference = A61720FDA39EF970A8831286 /* JCPageViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FAD8AFF97F3573AC12CB5ADE /* Pods-JCPageViewController_Tests-JCPageViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CDA7EFAA6AAD3FB7D7B7723 /* Build configuration list for PBXNativeTarget "Pods-JCPageViewController_Tests-JCPageViewController" */;
+			buildPhases = (
+				AC51F18180BF02146B6C2593 /* Sources */,
+				EB5334F5AA0434ABAE50CD54 /* Frameworks */,
+				E6FC117A52527CD97277BA54 /* Resources */,
+				8B80407BB7368B16561B0CBC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F30CCAA7693376DB34227076 /* PBXTargetDependency */,
+			);
+			name = "Pods-JCPageViewController_Tests-JCPageViewController";
+			productName = "Pods-JCPageViewController_Tests-JCPageViewController";
+			productReference = 303E5DF9C8C633679A3E1238 /* JCPageViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80886042705FEB6A94957CBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = A6F8678371AF8FF3EB6C7A22 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CC5557E9CB1B7E32720795A3;
+			productRefGroup = 9D40EC524DE7C9BDB084922E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				768D79261F448E4308122217 /* Pods-JCPageViewController_Example */,
+				E4BA1A1FFB8445D8FF6E7D46 /* Pods-JCPageViewController_Example-JCPageViewController */,
+				517E5925166E1EABF635E0C4 /* Pods-JCPageViewController_Example-JCPageViewController-JCPageViewController */,
+				0CCB41EC50FEFF04A675BFD6 /* Pods-JCPageViewController_Example-Masonry */,
+				04CE7EA7B5100985C32C930B /* Pods-JCPageViewController_Tests */,
+				FAD8AFF97F3573AC12CB5ADE /* Pods-JCPageViewController_Tests-JCPageViewController */,
+				61193F1644CD7299F272756A /* Pods-JCPageViewController_Tests-JCPageViewController-JCPageViewController */,
+				C06DE965ACEEF271E93209CD /* Pods-JCPageViewController_Tests-Masonry */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13474E1BF0C5AB0B982A5427 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A379BF5B7366EF2885EF290 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2548990A098C07057321421 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30292C10F611C66E0B6307B0 /* JCPageViewController.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6FC117A52527CD97277BA54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				126E929B8E7163655442D5C7 /* JCPageViewController.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0628038D14B99C343CA07260 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				639A709A298D6ACD06899B86 /* Pods-JCPageViewController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		255990C2E1A665091DEB2BF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4C76B4998C962CCEEA13DB0 /* MASCompositeConstraint.m in Sources */,
+				5094EF623428EA539FC76AF1 /* MASConstraint.m in Sources */,
+				9454EB702188FA5426B5D454 /* MASConstraintMaker.m in Sources */,
+				BC6F1B6D7B8D17CD3F4C25D4 /* MASLayoutConstraint.m in Sources */,
+				226587BCEF8BB65E36A47DF3 /* MASViewAttribute.m in Sources */,
+				23661F760D7360F403F022B3 /* MASViewConstraint.m in Sources */,
+				733448CB3E34D29E245EE77B /* NSArray+MASAdditions.m in Sources */,
+				0CBB324B925CEFEAE9650792 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				2FEE4CE6DC77472C00ECBCA6 /* Pods-JCPageViewController_Example-Masonry-dummy.m in Sources */,
+				8DF0666ED91045B04E234DA9 /* View+MASAdditions.m in Sources */,
+				3EB6157C05403D8F70F22743 /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67C3F42DC4B99FD6C3003139 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7299513EB743A28732C8F625 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				516D996AC3C3B68BDC83A049 /* JCOptionTitleBar.m in Sources */,
+				F6CFDECD3322E923AAF8BE4F /* JCPageContainerController.m in Sources */,
+				4FF2DB396874D7C2F2C2BC29 /* JCPageViewHController.m in Sources */,
+				FA7302B34E8A190CB41C6F5C /* Pods-JCPageViewController_Example-JCPageViewController-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F63613F22FB25A786330394 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E559B71511AABEF393A4A18 /* MASCompositeConstraint.m in Sources */,
+				9D58B90856EAF73AA2F4AB2C /* MASConstraint.m in Sources */,
+				CEE51DAADE4CABCD5E4FAD96 /* MASConstraintMaker.m in Sources */,
+				504ACECE450B5A0FCE804612 /* MASLayoutConstraint.m in Sources */,
+				E6A349389B12DB861EBFCFC8 /* MASViewAttribute.m in Sources */,
+				8BF1684432486A5115005503 /* MASViewConstraint.m in Sources */,
+				71D81F7A98A8F1239B20E4D5 /* NSArray+MASAdditions.m in Sources */,
+				7825A4A91DC2DB616BF251F5 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				65A0AB795E52B5B27AB07B1A /* Pods-JCPageViewController_Tests-Masonry-dummy.m in Sources */,
+				84D467BDCE2EF5C6FF287875 /* View+MASAdditions.m in Sources */,
+				614BEEA0D29ED9F867EEB20A /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB81DB0D8BFE488321D968B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC51F18180BF02146B6C2593 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EEAFB079015536F07DA6C6C /* JCOptionTitleBar.m in Sources */,
+				6DD5E1A29FFDDA86F457A1B3 /* JCPageContainerController.m in Sources */,
+				0B66C745BB90B5A237D474C9 /* JCPageViewHController.m in Sources */,
+				C9BB8DB6BE4E94C8588D815B /* Pods-JCPageViewController_Tests-JCPageViewController-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C188474B867E0B65FD5CEB02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD18AA5209ED0D7D5D696693 /* Pods-JCPageViewController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31CF6FC57EDE787369765FAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JCPageViewController_Tests-Masonry";
+			target = C06DE965ACEEF271E93209CD /* Pods-JCPageViewController_Tests-Masonry */;
+			targetProxy = 73367135C337FC22CDB0F79B /* PBXContainerItemProxy */;
+		};
+		71552C2742A36E8175F2F6B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JCPageViewController_Example-JCPageViewController-JCPageViewController";
+			target = 517E5925166E1EABF635E0C4 /* Pods-JCPageViewController_Example-JCPageViewController-JCPageViewController */;
+			targetProxy = E983F8D5B799077EA12D29CD /* PBXContainerItemProxy */;
+		};
+		868A481AFEC7D5975A752D62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JCPageViewController_Example-JCPageViewController";
+			target = E4BA1A1FFB8445D8FF6E7D46 /* Pods-JCPageViewController_Example-JCPageViewController */;
+			targetProxy = 3B05E85636EEEF0C49A05C39 /* PBXContainerItemProxy */;
+		};
+		C733B196D47384E0B896095C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JCPageViewController_Tests-JCPageViewController";
+			target = FAD8AFF97F3573AC12CB5ADE /* Pods-JCPageViewController_Tests-JCPageViewController */;
+			targetProxy = 24524A92AD6CD6C32165A942 /* PBXContainerItemProxy */;
+		};
+		D6FA271DBB58136A2AF993D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JCPageViewController_Example-Masonry";
+			target = 0CCB41EC50FEFF04A675BFD6 /* Pods-JCPageViewController_Example-Masonry */;
+			targetProxy = 4C453DA3DB8F963F4770D8FE /* PBXContainerItemProxy */;
+		};
+		F30CCAA7693376DB34227076 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JCPageViewController_Tests-JCPageViewController-JCPageViewController";
+			target = 61193F1644CD7299F272756A /* Pods-JCPageViewController_Tests-JCPageViewController-JCPageViewController */;
+			targetProxy = 5B71392D5DB0D5FCA52C460D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		097720812D5884CE11B99718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		13CEB5A8547B8A154C8C1143 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F0817470565C8FD794F9A4A /* Pods-JCPageViewController_Tests-Masonry-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JCPageViewController_Tests-Masonry/Pods-JCPageViewController_Tests-Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-JCPageViewController_Tests-Masonry/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-JCPageViewController_Tests-Masonry/Pods-JCPageViewController_Tests-Masonry.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1479207F37526309A206C967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76018E948BC56B1BD886E2E3 /* Pods-JCPageViewController_Example-JCPageViewController-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JCPageViewController_Example-JCPageViewController/Pods-JCPageViewController_Example-JCPageViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-JCPageViewController_Example-JCPageViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-JCPageViewController_Example-JCPageViewController/Pods-JCPageViewController_Example-JCPageViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JCPageViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		22084E220CAD836C080A7FE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F0817470565C8FD794F9A4A /* Pods-JCPageViewController_Tests-Masonry-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JCPageViewController_Tests-Masonry/Pods-JCPageViewController_Tests-Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-JCPageViewController_Tests-Masonry/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-JCPageViewController_Tests-Masonry/Pods-JCPageViewController_Tests-Masonry.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		276E8C706DCECA8F13FCAB35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76018E948BC56B1BD886E2E3 /* Pods-JCPageViewController_Example-JCPageViewController-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-JCPageViewController_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = JCPageViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		3C909309F5B8C8D03FB1498D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76018E948BC56B1BD886E2E3 /* Pods-JCPageViewController_Example-JCPageViewController-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JCPageViewController_Example-JCPageViewController/Pods-JCPageViewController_Example-JCPageViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-JCPageViewController_Example-JCPageViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-JCPageViewController_Example-JCPageViewController/Pods-JCPageViewController_Example-JCPageViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = JCPageViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3D0264CA7F82B973B7780F85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7B4EB71748625515B703947 /* Pods-JCPageViewController_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JCPageViewController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-JCPageViewController_Example/Pods-JCPageViewController_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_JCPageViewController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		671EF1CD478F8A97BBC214FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C16C9EE538CA04E8A46A6495 /* Pods-JCPageViewController_Tests-JCPageViewController-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-JCPageViewController_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = JCPageViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		6A116F06BEBEECED7668A31B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D0358BE6D6526E6F2709042 /* Pods-JCPageViewController_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JCPageViewController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-JCPageViewController_Example/Pods-JCPageViewController_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_JCPageViewController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6CB7301B69704D954794F0DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C16C9EE538CA04E8A46A6495 /* Pods-JCPageViewController_Tests-JCPageViewController-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JCPageViewController_Tests-JCPageViewController/Pods-JCPageViewController_Tests-JCPageViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-JCPageViewController_Tests-JCPageViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-JCPageViewController_Tests-JCPageViewController/Pods-JCPageViewController_Tests-JCPageViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JCPageViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		91CC492B0A04952241F40812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95FC1FC4C886B7A9C36E5A3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C16C9EE538CA04E8A46A6495 /* Pods-JCPageViewController_Tests-JCPageViewController-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-JCPageViewController_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = JCPageViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		9981DA40C1BBB1FC112CEBF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13E45C1CD9B0AF043947B1FD /* Pods-JCPageViewController_Example-Masonry-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JCPageViewController_Example-Masonry/Pods-JCPageViewController_Example-Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-JCPageViewController_Example-Masonry/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-JCPageViewController_Example-Masonry/Pods-JCPageViewController_Example-Masonry.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A3A0E2FF3B114B6E8276A062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3643198E87140D6F88375950 /* Pods-JCPageViewController_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JCPageViewController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-JCPageViewController_Tests/Pods-JCPageViewController_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_JCPageViewController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C81B08DB4F81CA7CE4630D1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76018E948BC56B1BD886E2E3 /* Pods-JCPageViewController_Example-JCPageViewController-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-JCPageViewController_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = JCPageViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		D8443488694F3D5FB959F482 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C16C9EE538CA04E8A46A6495 /* Pods-JCPageViewController_Tests-JCPageViewController-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JCPageViewController_Tests-JCPageViewController/Pods-JCPageViewController_Tests-JCPageViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-JCPageViewController_Tests-JCPageViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-JCPageViewController_Tests-JCPageViewController/Pods-JCPageViewController_Tests-JCPageViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = JCPageViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E9967573AA1F8C57C955A294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13E45C1CD9B0AF043947B1FD /* Pods-JCPageViewController_Example-Masonry-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JCPageViewController_Example-Masonry/Pods-JCPageViewController_Example-Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-JCPageViewController_Example-Masonry/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-JCPageViewController_Example-Masonry/Pods-JCPageViewController_Example-Masonry.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FDEF5D16D7BCD6DCE4B06CC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9C29094C396633998351B73 /* Pods-JCPageViewController_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JCPageViewController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-JCPageViewController_Tests/Pods-JCPageViewController_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_JCPageViewController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01F417BCEA63BF6E9BB817ED /* Build configuration list for PBXNativeTarget "Pods-JCPageViewController_Example-JCPageViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C909309F5B8C8D03FB1498D /* Debug */,
+				1479207F37526309A206C967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02B05565E51E6E30652C54A2 /* Build configuration list for PBXNativeTarget "Pods-JCPageViewController_Example-JCPageViewController-JCPageViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				276E8C706DCECA8F13FCAB35 /* Debug */,
+				C81B08DB4F81CA7CE4630D1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10CC5340FDDF42AA31DC6012 /* Build configuration list for PBXNativeTarget "Pods-JCPageViewController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A116F06BEBEECED7668A31B /* Debug */,
+				3D0264CA7F82B973B7780F85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D0034576B45233D9BE50BD7 /* Build configuration list for PBXNativeTarget "Pods-JCPageViewController_Example-Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9981DA40C1BBB1FC112CEBF8 /* Debug */,
+				E9967573AA1F8C57C955A294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E1DFC4348F418ED7FD4224E /* Build configuration list for PBXNativeTarget "Pods-JCPageViewController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3A0E2FF3B114B6E8276A062 /* Debug */,
+				FDEF5D16D7BCD6DCE4B06CC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FAF691802B368BC13A9249F /* Build configuration list for PBXNativeTarget "Pods-JCPageViewController_Tests-Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22084E220CAD836C080A7FE0 /* Debug */,
+				13CEB5A8547B8A154C8C1143 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CDA7EFAA6AAD3FB7D7B7723 /* Build configuration list for PBXNativeTarget "Pods-JCPageViewController_Tests-JCPageViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8443488694F3D5FB959F482 /* Debug */,
+				6CB7301B69704D954794F0DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6F8678371AF8FF3EB6C7A22 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				097720812D5884CE11B99718 /* Debug */,
+				91CC492B0A04952241F40812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AED490BD150AB1A140B382DF /* Build configuration list for PBXNativeTarget "Pods-JCPageViewController_Tests-JCPageViewController-JCPageViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95FC1FC4C886B7A9C36E5A3B /* Debug */,
+				671EF1CD478F8A97BBC214FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80886042705FEB6A94957CBC /* Project object */;
+}

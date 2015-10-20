@@ -1,0 +1,17 @@
+PODS:
+  - JCPageViewController (0.1.0)
+  - Masonry (0.6.3)
+
+DEPENDENCIES:
+  - JCPageViewController (from `../`)
+  - Masonry
+
+EXTERNAL SOURCES:
+  JCPageViewController:
+    :path: ../
+
+SPEC CHECKSUMS:
+  JCPageViewController: d1fb65b5ed070822ab48618a13f290cd84ebc155
+  Masonry: ff105a956abcd19a618b2028b121cb638d7a8e2f
+
+COCOAPODS: 0.37.2
