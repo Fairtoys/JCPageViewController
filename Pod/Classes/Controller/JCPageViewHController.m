@@ -56,7 +56,7 @@
     
     [self setViewControllers:@[selectedController]
                    direction: (first < second) ? UIPageViewControllerNavigationDirectionForward : UIPageViewControllerNavigationDirectionReverse
-                    animated:_selectedController completion:NULL];
+                    animated:(BOOL)_selectedController completion:NULL];
     
     _selectedController = selectedController;
 }
